@@ -1,9 +1,9 @@
 <?php
 
-require_once("View\HTMLView.php");
-require_once("View\LoginView.php");
+require_once('View\HTMLView.php');
+require_once('Controller\LoginController.php');
 $view = new HTMLView();
-$login = new LoginView();
+$login = new LoginController();
 
-$viewLogin = $login->ViewLogin();
+$viewLogin = $login->doControl();
 $view->echoHTML($viewLogin);
