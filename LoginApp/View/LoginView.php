@@ -5,13 +5,16 @@ class LoginView{
     private $password;
 
     public function ViewLogin(){
-        $ret = "<h2>Inloggningsmodul för xx222xx</h2>
+        $time = date("l, d F, Y [G:i:s].");
+        $ret = "<h2>Laborationskod för mf222nb</h2>
 
-        <form method='post'>
+        <form method='post' action='?login'>
             Användarnamn: <input type='text' name='username'>
             Lösenord: <input type='password' name='password'>
             <input type='submit' value='Logga in' name='submit'>
-        </form>";
+        </form>
+
+        <p>$time</p>";
 
         return $ret;
     }

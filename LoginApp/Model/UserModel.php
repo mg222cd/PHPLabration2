@@ -14,7 +14,10 @@ class UserModel{
 
     public function validateLogin($username, $password){
         $this->authenticatedUser = ($this->username == $username && $this->password == $password);
-        var_dump($this->authenticatedUser);
+        return $this->authenticatedUser;
+    }
+
+    public function getAuthenticatedUser(){
         return $this->authenticatedUser;
     }
 }
