@@ -3,18 +3,17 @@
 class LoginView{
     private $username;
     private $password;
+    private $error;
 
     public function ViewLogin(){
-        $time = date("l, d F, Y [G:i:s].");
         $ret = "<h2>Laborationskod för mf222nb</h2>
-
-        <form method='post' action='?login'>
+        <p>$this->error</p>
+        <form method='post' action='?LoggedIn'>
             Användarnamn: <input type='text' name='username'>
             Lösenord: <input type='password' name='password'>
+            Håll mig inloggad <input type='checkbox' name='check'>
             <input type='submit' value='Logga in' name='submit'>
-        </form>
-
-        <p>$time</p>";
+        </form>";
 
         return $ret;
     }
@@ -34,5 +33,9 @@ class LoginView{
 
     public function getPassword(){
         return $this->password;
+    }
+
+    public function failedLogIn(){
+        $this->error = "Användarnamn och/eller lösenord saknas";
     }
 }
