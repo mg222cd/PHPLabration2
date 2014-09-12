@@ -3,11 +3,12 @@
 class LoginView{
     private $username;
     private $password;
-    private $error;
+    private $message;
 
     public function ViewLogin(){
         $ret = "<h2>Laborationskod för mf222nb</h2>
-        <p>$this->error</p>
+        <h3>Ej inloggad</h3>
+        <p>$this->message</p>
         <form method='post' action='?LoggedIn'>
             Användarnamn: <input type='text' name='username'>
             Lösenord: <input type='password' name='password'>
@@ -35,7 +36,19 @@ class LoginView{
         return $this->password;
     }
 
-    public function failedLogIn(){
-        $this->error = "Användarnamn och/eller lösenord saknas";
+    public function failedLogIn($username, $password){
+        if($username === ""){
+            $this->message = "Användarnamn saknas";
+        }
+        else if($password === ""){
+            $this->message = "Lösenord saknas";
+        }
+        else{
+            $this->message = "Felaktigt användarnamn och/eller lösenord";
+        }
+    }
+
+    public function LogInSuccessMessage(){
+        return $this->message = "Inloggning lyckades";
     }
 }

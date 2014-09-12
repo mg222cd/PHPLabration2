@@ -35,19 +35,19 @@
       <file leaf-file-name="LoginView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/LoginView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="782">
+            <state line="50" column="28" selection-start="1352" selection-end="1352" vertical-scroll-proportion="-16.307692" vertical-offset="426" max-vertical-offset="1003">
               <folding>
-                <marker date="1410447882192" expanded="true" signature="250:417" placeholder="..." />
-                <marker date="1410447882192" expanded="true" signature="250:522" placeholder="..." />
+                <marker date="1410521058819" expanded="true" signature="283:450" placeholder="..." />
+                <marker date="1410521058819" expanded="true" signature="283:555" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggedinView.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoggedinView.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/View/LoggedinView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="18" selection-start="602" selection-end="602" vertical-scroll-proportion="-15.038462" vertical-offset="102" max-vertical-offset="765">
+            <state line="29" column="5" selection-start="575" selection-end="575" vertical-scroll-proportion="0.7660312" vertical-offset="51" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -56,16 +56,16 @@
       <file leaf-file-name="LoginController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="8" selection-start="958" selection-end="958" vertical-scroll-proportion="-15.038462" vertical-offset="204" max-vertical-offset="884">
+            <state line="19" column="18" selection-start="439" selection-end="439" vertical-scroll-proportion="-2.6153846" vertical-offset="255" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserModel.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserModel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="785" selection-end="785" vertical-scroll-proportion="0.5303293" vertical-offset="119" max-vertical-offset="731">
+            <state line="25" column="40" selection-start="785" selection-end="785" vertical-scroll-proportion="-12.384615" vertical-offset="103" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -74,10 +74,10 @@
       <file leaf-file-name="HTMLView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/HTMLView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+            <state line="6" column="28" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
               <folding>
-                <marker date="1410438530581" expanded="true" signature="249:365" placeholder="..." />
-                <marker date="1410438530581" expanded="true" signature="270:343" placeholder="..." />
+                <marker date="1410520432908" expanded="true" signature="249:365" placeholder="..." />
+                <marker date="1410520432908" expanded="true" signature="270:343" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -95,11 +95,11 @@
       <list>
         <option value="$PROJECT_DIR$/HTMLView.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/View/HTMLView.php" />
-        <option value="$PROJECT_DIR$/View/LoggedinView.php" />
-        <option value="$PROJECT_DIR$/View/LoginView.php" />
-        <option value="$PROJECT_DIR$/Controller/LoginController.php" />
         <option value="$PROJECT_DIR$/Model/UserModel.php" />
+        <option value="$PROJECT_DIR$/View/LoginView.php" />
+        <option value="$PROJECT_DIR$/View/LoggedinView.php" />
+        <option value="$PROJECT_DIR$/View/HTMLView.php" />
+        <option value="$PROJECT_DIR$/Controller/LoginController.php" />
       </list>
     </option>
   </component>
@@ -136,7 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +198,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +209,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1DV407-Portfolio" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -247,6 +248,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -258,10 +260,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -283,6 +284,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="168" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/LoginView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="782">
+          <folding>
+            <marker date="1410521058819" expanded="true" signature="283:450" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:555" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/LoggedinView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/HTMLView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
+          <folding>
+            <marker date="1410520432908" expanded="true" signature="249:365" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="270:343" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="10" selection-start="147" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
           <folding />
         </state>
@@ -292,8 +341,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="40" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="731">
           <folding>
-            <marker date="1410447882192" expanded="true" signature="250:417" placeholder="..." />
-            <marker date="1410447882192" expanded="true" signature="250:522" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:450" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:555" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -323,8 +372,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323">
           <folding>
-            <marker date="1410438530581" expanded="true" signature="249:365" placeholder="..." />
-            <marker date="1410438530581" expanded="true" signature="270:343" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="249:365" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="270:343" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -340,8 +389,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
           <folding>
-            <marker date="1410447882192" expanded="true" signature="250:417" placeholder="..." />
-            <marker date="1410447882192" expanded="true" signature="250:522" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:450" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:555" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -364,8 +413,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
           <folding>
-            <marker date="1410438530581" expanded="true" signature="249:365" placeholder="..." />
-            <marker date="1410438530581" expanded="true" signature="270:343" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="249:365" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="270:343" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -381,8 +430,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="1" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
           <folding>
-            <marker date="1410447882192" expanded="true" signature="250:417" placeholder="..." />
-            <marker date="1410447882192" expanded="true" signature="250:522" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:450" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:555" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -405,19 +454,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="323">
           <folding>
-            <marker date="1410438530581" expanded="true" signature="249:365" placeholder="..." />
-            <marker date="1410438530581" expanded="true" signature="270:343" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="249:365" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="270:343" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/HTMLView.php">
+    <entry file="file://$PROJECT_DIR$/Model/UserModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <marker date="1410438530581" expanded="true" signature="249:365" placeholder="..." />
-            <marker date="1410438530581" expanded="true" signature="270:343" placeholder="..." />
-          </folding>
+        <state line="25" column="40" selection-start="785" selection-end="785" vertical-scroll-proportion="-12.384615" vertical-offset="103" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,33 +474,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/View/HTMLView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <marker date="1410520432908" expanded="true" signature="249:365" placeholder="..." />
+            <marker date="1410520432908" expanded="true" signature="270:343" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="439" selection-end="439" vertical-scroll-proportion="-2.6153846" vertical-offset="255" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/View/LoginView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="782">
+        <state line="50" column="28" selection-start="1352" selection-end="1352" vertical-scroll-proportion="-16.307692" vertical-offset="426" max-vertical-offset="1003">
           <folding>
-            <marker date="1410447882192" expanded="true" signature="250:417" placeholder="..." />
-            <marker date="1410447882192" expanded="true" signature="250:522" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:450" placeholder="..." />
+            <marker date="1410521058819" expanded="true" signature="283:555" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/LoggedinView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="18" selection-start="602" selection-end="602" vertical-scroll-proportion="-15.038462" vertical-offset="102" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="958" selection-end="958" vertical-scroll-proportion="-15.038462" vertical-offset="204" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/UserModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="785" selection-end="785" vertical-scroll-proportion="0.5303293" vertical-offset="119" max-vertical-offset="731">
+        <state line="29" column="5" selection-start="575" selection-end="575" vertical-scroll-proportion="0.7660312" vertical-offset="51" max-vertical-offset="714">
           <folding />
         </state>
       </provider>

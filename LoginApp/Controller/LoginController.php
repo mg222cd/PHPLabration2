@@ -17,14 +17,16 @@ class LoginController{
 
 
     public function doControl(){
-        $loggedInView = $this->loggedInView->LoggedInView();
-
         if(isset($_POST['submit'])){
             $this->view->getInformation();
             $username = $this->view->getUsername();
             $password = $this->view->getPassword();
             if(!$this->model->validateLogin($username, $password)){
-                $this->view->failedLogIn();
+                $this->view->failedLogIn($username, $password);
+            }
+            else {
+                $message = $this->view->LogInSuccessMessage();
+                $this->loggedInView->setMessage($message);
             };
         }
 
@@ -32,15 +34,15 @@ class LoginController{
         if($userLogOut === true){
             $this->model->LogOut();
         }
-
         $loginView = $this->view->ViewLogin();
 
         $authenticated = $this->model->getAuthenticatedUser();
+
+        $loggedInView = $this->loggedInView->LoggedInView();
         if($authenticated === true){
             return $loggedInView;
         }
         else{
-            $this->model->LogOut();
             return $loginView;
         }
     }
