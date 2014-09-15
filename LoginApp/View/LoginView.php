@@ -51,4 +51,17 @@ class LoginView{
     public function LogInSuccessMessage(){
         return $this->message = "Inloggning lyckades";
     }
+
+    public function setMessage($message){
+        $this->message = $message;
+    }
+
+    public function wantCookie(){
+        if(isset($_POST['check'])){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }

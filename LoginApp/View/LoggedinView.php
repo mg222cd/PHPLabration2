@@ -17,6 +17,10 @@ class LoggedInView{
         $this->message = $message;
     }
 
+    public function logOutSuccessMessage(){
+        return $this->message = "Du har nu loggat ut";
+    }
+
     public function LoggedInView(){
         $ret = "<h2>Laborationskod för mf222nb</h2>
 
