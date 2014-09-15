@@ -4,6 +4,8 @@ class UserModel{
     private $username = 'Admin';
     private $password = 'password';
     private $authenticatedUser = false;
+    private $randomString = "dsdididjsadladacm";
+
     /**
      * @param $username
      * @param $password
@@ -34,5 +36,10 @@ class UserModel{
         if(isset($_SESSION["ValidLogin"])){
             unset($_SESSION["ValidLogin"]);
         }
+        return $this->authenticatedUser = false;
+    }
+
+    public function getRandomString(){
+        return $this->randomString;
     }
 }

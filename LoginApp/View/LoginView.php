@@ -28,6 +28,15 @@ class LoginView{
         }
     }
 
+    public function getSubmit(){
+        if(isset($_POST['submit'])){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
     public function getUsername(){
         return $this->username;
     }
