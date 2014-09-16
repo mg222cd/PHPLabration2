@@ -9,21 +9,25 @@ class UserModel{
     /**
      * @param $username
      * @param $password
+     * @param $userAgent
      * @return bool
      * Tittar om användarnamnoch lösenord från användaren stämmer överens.
      */
 
-    public function validateLogin($username, $password){
+    public function validateLogin($username, $password, $userAgent){
         $this->authenticatedUser = ($this->username === $username && $this->password === $password);
         if($this->authenticatedUser){
             $_SESSION["ValidLogin"] = $this->username;
+            $_SESSION["UserAgent"] = $userAgent;
         }
         return $this->authenticatedUser;
     }
 
-    public function getAuthenticatedUser(){
-        if(isset($_SESSION["ValidLogin"])){
-            $this->authenticatedUser = true;
+    public function getAuthenticatedUser($userAgent){
+        if($_SESSION["UserAgent"] === $userAgent){
+            if(isset($_SESSION["ValidLogin"])){
+                $this->authenticatedUser = true;
+            }
         }
         return $this->authenticatedUser;
     }
@@ -41,5 +45,15 @@ class UserModel{
 
     public function getRandomString(){
         return $this->randomString;
+    }
+
+    public function controlCookieValue($cookieValue){
+        if($this->randomString === $cookieValue){
+            $_SESSION["ValidLogin"] = $this->username;
+            return $this->authenticatedUser = true;
+        }
+        else{
+            return $this->authenticatedUser = false;
+        }
     }
 }
