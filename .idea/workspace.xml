@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApp/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
+            <state line="5" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="HTMLView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApp/View/HTMLView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
+            <state line="5" column="30" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
               <folding>
                 <marker date="1410778097636" expanded="true" signature="249:365" placeholder="..." />
                 <marker date="1410778097636" expanded="true" signature="270:343" placeholder="..." />
@@ -47,7 +47,7 @@
       <file leaf-file-name="LoginView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApp/View/LoginView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="5" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-43.115383" vertical-offset="137" max-vertical-offset="1377">
+            <state line="74" column="5" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-44.46154" vertical-offset="102" max-vertical-offset="1377">
               <folding>
                 <marker date="1410795062258" expanded="true" signature="283:555" placeholder="..." />
               </folding>
@@ -67,7 +67,7 @@
       <file leaf-file-name="LoggedinView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApp/View/LoggedinView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="-3.2692308" vertical-offset="153" max-vertical-offset="782">
+            <state line="14" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="-7.1923075" vertical-offset="51" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="LoginController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LoginApp/Controller/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="62" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.48021582" vertical-offset="396" max-vertical-offset="1564">
+            <state line="53" column="76" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.42805755" vertical-offset="663" max-vertical-offset="1581">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="CookieView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApp/View/CookieView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="47" selection-start="538" selection-end="538" vertical-scroll-proportion="-10.461538" vertical-offset="102" max-vertical-offset="850">
+            <state line="8" column="38" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.9230769" vertical-offset="34" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="UserModel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApp/Model/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-13.538462" vertical-offset="209" max-vertical-offset="1088">
+            <state line="49" column="63" selection-start="1441" selection-end="1441" vertical-scroll-proportion="-8.5" vertical-offset="612" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -119,10 +119,10 @@
         <option value="$PROJECT_DIR$/LoginApp/Helpers/CookieStorage.php" />
         <option value="$PROJECT_DIR$/LoginApp/View/LoginView.php" />
         <option value="$PROJECT_DIR$/LoginApp/View/ServiceView.php" />
-        <option value="$PROJECT_DIR$/LoginApp/View/CookieView.php" />
-        <option value="$PROJECT_DIR$/LoginApp/Model/UserModel.php" />
         <option value="$PROJECT_DIR$/LoginApp/Helpers/ServiceHelper.php" />
+        <option value="$PROJECT_DIR$/LoginApp/Model/UserModel.php" />
         <option value="$PROJECT_DIR$/LoginApp/Controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/LoginApp/View/CookieView.php" />
       </list>
     </option>
   </component>
@@ -321,11 +321,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -345,6 +345,67 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LoginApp/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/HTMLView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
+          <folding>
+            <marker date="1410778097636" expanded="true" signature="249:365" placeholder="..." />
+            <marker date="1410778097636" expanded="true" signature="270:343" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/LoginView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="5" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="1377">
+          <folding>
+            <marker date="1410795062258" expanded="true" signature="283:555" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/Helpers/ServiceHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/LoggedinView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="62" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/CookieView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApp/Model/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LoginApp/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -462,7 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginApp/View/HTMLView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
+        <state line="5" column="30" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
           <folding>
             <marker date="1410778097636" expanded="true" signature="249:365" placeholder="..." />
             <marker date="1410778097636" expanded="true" signature="270:343" placeholder="..." />
@@ -470,19 +531,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApp/View/LoginView.php">
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/LoggedinView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-43.115383" vertical-offset="137" max-vertical-offset="1377">
-          <folding>
-            <marker date="1410795062258" expanded="true" signature="283:555" placeholder="..." />
-          </folding>
+        <state line="14" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="-7.1923075" vertical-offset="51" max-vertical-offset="782">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApp/View/LoggedinView.php">
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/LoginView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="-3.2692308" vertical-offset="153" max-vertical-offset="782">
-          <folding />
+        <state line="74" column="5" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-44.46154" vertical-offset="102" max-vertical-offset="1377">
+          <folding>
+            <marker date="1410795062258" expanded="true" signature="283:555" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,23 +554,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApp/View/CookieView.php">
+    <entry file="file://$PROJECT_DIR$/LoginApp/Model/UserModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="47" selection-start="538" selection-end="538" vertical-scroll-proportion="-10.461538" vertical-offset="102" max-vertical-offset="850">
+        <state line="49" column="63" selection-start="1441" selection-end="1441" vertical-scroll-proportion="-8.5" vertical-offset="612" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApp/Model/UserModel.php">
+    <entry file="file://$PROJECT_DIR$/LoginApp/View/CookieView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-13.538462" vertical-offset="209" max-vertical-offset="1088">
+        <state line="8" column="38" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.9230769" vertical-offset="34" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginApp/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="62" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.48021582" vertical-offset="396" max-vertical-offset="1564">
+        <state line="53" column="76" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.42805755" vertical-offset="663" max-vertical-offset="1581">
           <folding />
         </state>
       </provider>

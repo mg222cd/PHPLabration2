@@ -35,7 +35,8 @@ class LoginController{
             else {
                 if($this->view->wantCookie()){
                     $randomString = $this->model->getRandomString();
-                    $this->cookieView->save($randomString);
+                    $time = $this->cookieView->save($randomString);
+                    $this->model->saveCookieTime($time);
                     $message = $this->cookieView->cookieSaveMessage();
                     $this->loggedInView->setMessage($message);
                 }
@@ -50,7 +51,7 @@ class LoginController{
         if($authenticated === false){
             if($this->cookieView->loadCookie()){
                 $cookieValue = $this->cookieView->cookieExist();
-                if($this->model->controlCookieValue($cookieValue)){
+                if($this->model->controlCookieValue($cookieValue, $userAgent)){
                     $message = $this->cookieView->cookieLoadMessage();
                     $this->loggedInView->setMessage($message);
                 }

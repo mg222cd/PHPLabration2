@@ -3,9 +3,12 @@
 class CookieStorage{
     private $cookieName = "CookieStorage";
     private $message;
+    private $cookieTime;
 
     public function save($string){
-        setcookie($this->cookieName, $string, -1);
+        $this->cookieTime = time()+120;
+        setcookie($this->cookieName, $string, $this->cookieTime);
+        return $this->cookieTime;
     }
 
     public function deleteCookie(){
