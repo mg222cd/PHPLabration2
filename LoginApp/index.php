@@ -1,9 +1,7 @@
 <?php
 
-require_once('View\HTMLView.php');
-require_once('Controller\LoginController.php');
-
-//ini_set( 'default_charset', 'UTF-8' );
+require_once('View/HTMLView.php');
+require_once('Controller/LoginController.php');
 
 $view = new HTMLView();
 $login = new LoginController();

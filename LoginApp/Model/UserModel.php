@@ -2,8 +2,10 @@
 
 class UserModel{
     private $username = 'Admin';
-    private $password = 'password';
+    private $password = 'Password';
     private $authenticatedUser = false;
+    //Eftersom det bara finns 1 användare så har jag en sträng som jag placerar i kakan som jag jämför med men
+    //den ändras inte utan den har ett satt värde.
     private $randomString = "dsdididjsadladacm";
 
     /**
@@ -11,9 +13,8 @@ class UserModel{
      * @param $password
      * @param $userAgent
      * @return bool
-     * Tittar om användarnamnoch lösenord från användaren stämmer överens.
+     * Tittar om användarnamn och lösenord från användaren stämmer överens.
      */
-
     public function validateLogin($username, $password, $userAgent){
         $this->authenticatedUser = ($this->username === $username && $this->password === $password);
         if($this->authenticatedUser){
@@ -23,6 +24,7 @@ class UserModel{
         return $this->authenticatedUser;
     }
 
+    //Tittar om användaren är inloggad redan med sessions eller inte.
     public function getAuthenticatedUser($userAgent){
         if(isset($_SESSION["UserAgent"]) && $_SESSION["UserAgent"] === $userAgent){
             if(isset($_SESSION["ValidLogin"])){
@@ -36,6 +38,7 @@ class UserModel{
         session_start();
     }
 
+    //Om användaren väljer att logga ut så tas sessionen bort.
     public function LogOut(){
         if(isset($_SESSION["ValidLogin"])){
             unset($_SESSION["ValidLogin"]);
@@ -43,10 +46,12 @@ class UserModel{
         return $this->authenticatedUser = false;
     }
 
+    //Hämtar ut strängen vars värde ska in i kakan.
     public function getRandomString(){
         return $this->randomString;
     }
 
+    //Kontrollerar om kakans värde stämmer överens med randomsStrings värde.
     public function controlCookieValue($cookieValue, $userAgent){
         $time = file_get_contents("exist.txt");
         if($time > time()){
@@ -61,6 +66,7 @@ class UserModel{
         }
     }
 
+    //Sparar tiden när kakan skapades i en fil.
     public function saveCookieTime($time){
         file_put_contents("exist.txt", $time);
     }
