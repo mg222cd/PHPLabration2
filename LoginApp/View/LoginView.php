@@ -10,7 +10,7 @@ class LoginView{
         <h3>Ej inloggad</h3>
         <p>$this->message</p>
         <form method='post' action='?LoggedIn'>
-            Användarnamn: <input type='text' name='username'>
+            Användarnamn: <input type='text' name='username' value=$this->username>
             Lösenord: <input type='password' name='password'>
             Håll mig inloggad <input type='checkbox' name='check'>
             <input type='submit' value='Logga in' name='submit'>

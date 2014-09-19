@@ -24,6 +24,11 @@ class LoginController{
     public function doControl(){
         $userAgent = $this->serviceHelper->getUserAgent();
 
+        /*När användaren trycker på logga in knappen så hämtas information ut om vad användaren skrev in för lösenord och
+        användarnamn och skickar den vidare för att kontrollera om dem är korrekta och i sådana fall loggas man in annars
+        visas ett felmeddelande.
+        Vill användaren att man ska komma ihåg den så skapas en cookie och sparar en identifierare i cookien så att man vet
+        vilken användare som är inloggad. */
         if($this->loginView->getSubmit()){
             $this->loginView->getInformation();
             $username = $this->loginView->getUsername();
@@ -47,6 +52,10 @@ class LoginController{
             }
         }
 
+        /*Tittar om användaren redan är inloggad med sessioner och om den inte är det så laddas cookie in och kollar om
+        det finns och om det inte gör det så visas ett felmeddelande, men om cookie skulle finnas på klienten så jämförs
+        dem och tittar så att identifieraren i cookien stämmer överens med den på servern och om de gör det så loggas man
+        in annars visas ett felmeddelande.*/
         $authenticated = $this->userModel->getAuthenticatedUser($userAgent);
         if($authenticated === false){
             if($this->cookieView->loadCookie()){
@@ -63,6 +72,8 @@ class LoginController{
             }
         }
 
+        /*Om användaren är inloggad ska anvämdaren kunna logga ut och om den trycker på logga ut så tas cookien bort om de
+        finns på klienten tillsammans med sessionen och man får ett meddelande att man har loggat ut. */
         $authenticated = $this->userModel->getAuthenticatedUser($userAgent);
         if($authenticated === true){
             $userLogOut = $this->loggedInView->userPressedLogOut();
